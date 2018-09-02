@@ -27,5 +27,6 @@ def sort
   grade.sort do |a,b|
     a <=> b
     end
+  end 
 end
 end
