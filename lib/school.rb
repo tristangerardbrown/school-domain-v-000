@@ -4,9 +4,17 @@ class School
     @name=name
   end
 
-school.roster = {}
+  def name
+    @name=name
+  end
 
-school = School.new("Bayside High School")
+  def roster
+    {}
+  end 
+
+roster = {}
+
+
 
 
 
