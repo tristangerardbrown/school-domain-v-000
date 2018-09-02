@@ -1,18 +1,18 @@
 class School
 
-  def initialize(name)
-    @name=name
-  end
+attr_reader :school_name 
 
-  def name
-    @name=name
+  def initialize(school_name)
+    @school_name=school_name
   end
 
   def roster
     {}
   end 
 
-roster = {}
+  def add_student(name,grade)
+    roster << {grade => name}
+
 
 
 
