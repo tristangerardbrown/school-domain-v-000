@@ -23,7 +23,7 @@ def grade(grade)
 end
 
 def sort
-  roster[grade].sort do |a,b|
+  roster.sort do |a,b|
     a <=> b
     end
 end
