@@ -14,10 +14,10 @@ attr_reader :school_name
   def add_student(name,grade)
   if roster.include?(grade) == false
       roster[grade] = []
-    end 
+    end
     roster[grade] << name
   end
 
-
-
+def grade(grade)
+  roster[grade]
 end
