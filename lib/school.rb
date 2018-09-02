@@ -1,9 +1,10 @@
 class School
 
   def initialize(name)
-    roster = {}
     @name=name
   end
+
+roster = {}
 
 school = School.new("Bayside High School")
 
