@@ -11,9 +11,10 @@ attr_reader :school_name
   end
 
   def add_student(name,grade)
-    roster << {grade => name}
+    roster["new_key"] = []
+    roster["new_key"] << "{grade => name}"
     roster 
-end 
+end
 
 
 
