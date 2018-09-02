@@ -4,7 +4,7 @@ class School
     @name=name
   end
 
-roster = {}
+school.roster = {}
 
 school = School.new("Bayside High School")
 
